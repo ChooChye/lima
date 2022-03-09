@@ -1,0 +1,19 @@
+.sidebar hr.sidebar-divider {
+    margin: 0;
+}
+
+
+div#btnHolder a[data-toggle=collapse]::after {
+    width: 1rem;
+    text-align: center;
+    float: right;
+    vertical-align: 0;
+    border: 0;
+    font-weight: 900;
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+}
+
+div#btnHolder a[data-toggle=collapse].collapsed::after {
+    content: '\f105';
+}

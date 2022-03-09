@@ -1,0 +1,4 @@
+[01-Dec-2020 06:39:16 UTC] PHP Notice:  Undefined index: userid in /home/fbhotelk/public_html/client/loginck.php on line 8
+[01-Dec-2020 06:39:16 UTC] PHP Notice:  Undefined index: password in /home/fbhotelk/public_html/client/loginck.php on line 9
+[04-Dec-2020 09:52:27 UTC] PHP Notice:  Undefined index: userid in /home/fbhotelk/public_html/client/loginck.php on line 8
+[04-Dec-2020 09:52:27 UTC] PHP Notice:  Undefined index: password in /home/fbhotelk/public_html/client/loginck.php on line 9

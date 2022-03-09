@@ -1,0 +1,330 @@
+.highlight{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+.floater-right{
+    z-index: 99; 
+    right: 2%; 
+    position: fixed; 
+    top: 90%; 
+    display: block;
+}
+.ul {
+    list-style-type: none;
+    margin:0px;
+    padding:5px;
+    width:100%;
+}
+hr {
+    border-color: #DDD -moz-use-text-color -moz-use-text-color;
+}
+@media (min-width: 200px) and (max-width: 700px){
+    .logo {
+        width:180px;
+    }
+    #booking {
+        display:none;
+    }
+}
+#ad{
+    height:300px;
+    width:250px; 
+    border:1px solid #428BCA; 
+    overflow:hidden; 
+    padding:5px;
+    -webkit-transition: height 2s;
+    transition: height 2s;
+}
+#ad:hover{
+    border: 1px solid green;
+    height:350px;
+}
+.mod-label {
+    padding: 5px;
+    margin-bottom:1%;
+    min-width:100%;
+    color: white;
+    text-align: center;
+    font-weight:bold;
+    font-size:18px;
+    
+}
+.shadow {
+    -webkit-box-shadow: -5px 1px 5px 0px #000;
+-moz-box-shadow: -5px 1px 5px 0px #000;
+box-shadow: -5px 1px 5px 0px #000;
+
+}
+.shadow-inset {
+    -webkit-box-shadow: 0px 0px 5px 0.5px #000 inset;
+-moz-box-shadow: 0px 0px 5px 0.5px #000 inset;
+box-shadow: 0px 0px 5px 0.5px #000 inset;
+
+}
+.header-cover{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+textarea{
+    resize:none;
+}
+.clear {
+    margin: 0px;
+    padding:0px;
+}
+.hover:hover {
+    transition:all ease-in-out;
+    background: #EEE;
+}
+.featured-info {
+    padding-top:1%;
+}
+.featured-info>p {
+    font-size:12px;
+    margin:0px;
+    padding:0px;
+}
+.featured-text {
+    width:110%; 
+    height: auto; 
+    text-overflow: ellipsis; 
+    overflow:hidden;
+    padding-top:1%;
+    white-space: nowrap; 
+}
+.featured-meta {
+    width:20%; 
+    height:auto; 
+    text-align:right;
+}
+.textdots {
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    width: auto; 
+    height: 1.2em; 
+    white-space: nowrap; 
+}
+.form-contain {
+        
+        max-width: 400px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: lightgreen;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+
+.social-icons {
+    color:black;
+}
+.social-icons-default {
+    color:black;
+}
+.social-icons-default:hover{
+    color:#E44646;
+   	transition:all 0.3s ease-in-out 0.1s;  
+}
+.social-icons#facebook:hover{
+    color:#3b5998;
+   	transition:all 0.3s ease-in-out 0.1s;  
+}
+.social-icons#twitter:hover{
+    color:#00aced;
+	transition:all 0.3s ease-in-out 0.1s;  
+}
+.social-icons#weibo:hover{
+    color:	#E6162D;
+	transition:all 0.3s ease-in-out 0.1s;  
+}
+.social-icons#visa{
+    color:	#f6a41d;
+	transition:all 0.3s ease-in-out 0.1s;  
+}
+.social-icons#mastercard{
+    color:	#ee2d24;
+	transition:all 0.3s ease-in-out 0.1s;  
+}
+.social-icons#amex{
+    color:	#007bc1;
+	transition:all 0.3s ease-in-out 0.1s;  
+}
+
+/*------------------Homepage slider---------------------*/
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+@media (min-width: 900px) {
+.carousel .item img {
+    width: 100%; /*img width*/
+    min-height:600px;
+    
+}
+}
+@media (min-width: 400px)
+.carousel .item img {
+    width: 100%;
+}
+}
+
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 10%;
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+/*---------------------------------------------*/
+
+/*-----------------LOADER-----------------------*/
+#loader{
+opacity:0.9;
+position:fixed;
+top:0;
+left:0px;
+width:100%;
+background-color:#EEE;
+height:100%;
+text-align:center;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+/*---------------------------------------------------*/
+
+/*--------------------HOTEL.php----------------------*/
+
+.clear {
+    margin: 0px;
+    padding:0px;
+}
+.hover:hover {
+    transition:all ease-in-out;
+    background: #EEE;
+}
+.featured-info {
+    padding-top:1%;
+}
+.featured-info>p {
+    font-size:12px;
+    margin:0px;
+    padding:0px;
+}
+.featured-text {
+    width:110%; 
+    height: auto; 
+    text-overflow: ellipsis; 
+    overflow:hidden;
+    padding-top:1%;
+    white-space: nowrap; 
+}
+.featured-meta {
+    width:20%; 
+    height:auto; 
+    text-align:right;
+}
+@media screen and (min-width:900px){
+    .hotel-label{
+        font-size:26px;
+        border-radius:0px; 
+        padding-left:12%; 
+        padding-right:12%;
+    }
+}
+/*----------------------------------------------------*/
+
+/*------------------For the homepage--------------------*/
+
+@media (min-width:300px) and (max-width:799px){
+    .i-mod {
+        padding: 0px; 
+        width:100%;
+    }
+}
+@media (min-width:800px){
+        .i-mod {
+        padding: 0px; 
+        width:50%;
+    }
+}
+.overlay-container#promo  { 
+    width:100%;
+    height:250px;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    background:url('http://dd508hmafkqws.cloudfront.net/sites/default/files/styles/article_node_view/public/AirAsia.jpg');
+    background-size:cover;
+    overflow:hidden;
+    }
+.overlay-container#merchant  { 
+        width:100%;
+    height:250px;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    background:url('http://corporate-worldclub.com/wpimages/wp24d7a107_06.png');
+    background-size:cover;
+    overflow:hidden;
+    }
+
+
+#overlay-over    {  
+    background:rgba(0,0,0,.75);
+    text-align:center;
+    padding:45px 0 66px 0;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    height:100%;
+    width:100%;
+    }
+.overlay-container#promo:hover #overlay-over,
+.overlay-container#merchant:hover #overlay-over {
+    opacity:1;
+    }
+
+.overlay-caption       {  
+    color:rgba(255,255,255,.85);
+    font-weight:1000px;
+    }   
+
+
+/*----------------------------------------------------*/
